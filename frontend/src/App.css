@@ -1,0 +1,112 @@
+
+/* App.css */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.App {
+  animation: fadeIn 1s ease; /* Apply fadeIn animation to the whole app */
+}
+
+.heading {
+  font-size: 3rem; /* Set the font size of the heading */
+  background-image: linear-gradient(to right, #da676b, #f049bb,#ff1639); /* Apply gradient background to the heading */
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+body {
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 4rem; 
+  background-image: linear-gradient(to right, #04633f, #0baeae); /* Gradient background */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  color: transparent; /* Make text transparent */
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+/* Form container */
+.max-w-lg {
+  max-width: 32rem; /* Adjust the maximum width as needed */
+  margin-top: 2rem; /* Add spacing at the top */
+}
+
+/* Label styles */
+.block {
+  display: block;
+}
+.text-gray-700 {
+  color: #4a5568; /* Adjust the gray color as needed */
+}
+.text-lg {
+  font-size: 1.125rem; /* Adjust the font size as needed */
+}
+.font-semibold {
+  font-weight: 600; /* Adjust the font weight as needed */
+}
+
+/* Textarea styles */
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.75rem; /* Adjust the padding as needed */
+  border-width: 1px; /* Adjust the border width as needed */
+  border-color: #000000; /* Adjust the border color as needed */
+  border-radius: 0.375rem; /* Adjust the border radius as needed */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  outline: 0;
+  margin-bottom: 1rem; /* Add spacing at the bottom */
+}
+textarea:focus {
+  border-color: #1e90ff; /* Adjust the focus border color as needed */
+}
+
+/* Button styles */
+button {
+  display: inline-block;
+  font-weight: 600; /* Adjust the font weight as needed */
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: #7cdba2; /* Adjust the background color as needed */
+  border: none;
+  padding: 1rem 1.5rem; /* Adjust the padding as needed */
+  border-radius: 0.375rem; /* Adjust the border radius as needed */
+  transition: background-color 0.3s ease;
+  outline: none;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin-top: 1rem; /* Add spacing at the top */
+}
+button:hover {
+  background-color: #6cc7a9; /* Adjust the hover background color as needed */
+}
+
+
+h2 {
+  margin-top: 30px;
+}
+
+p {
+  white-space: pre-wrap;
+  text-align: left;
+}
